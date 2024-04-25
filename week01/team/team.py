@@ -55,8 +55,8 @@ if __name__ == '__main__':
     
     def check_for_primes(index):
         global prime_count
-        for i in range(start, start + (range_count//10)):
-            if is_prime(i*10-index-1):
+        for i in range(1, range_count//10 + 1):
+            if is_prime(start + (i*10-index)):
                 prime_count += 1
                 print(i, end=', ', flush=True)
         print(flush=True)
