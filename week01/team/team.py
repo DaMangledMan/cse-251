@@ -58,7 +58,7 @@ if __name__ == '__main__':
         for i in range(1, range_count//10 + 1):
             if is_prime(start + (i*10-index)):
                 prime_count += 1
-                print(i, end=', ', flush=True)
+                print(start + (i*10-index), end=', ', flush=True)
         print(flush=True)
 
     t0 = threading.Thread(target=check_for_primes, args=(0,))
