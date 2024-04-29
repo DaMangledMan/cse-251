@@ -232,8 +232,8 @@ def main():
 
     # Test 1 - Drawing with no threads
     # remove the file 'drawpart1.txt' to stop drawing part 1
-    #if os.path.exists('drawpart1.txt'):
-    #    run_no_threads(turtle251, log, main_turtle)
+    if os.path.exists('drawpart1.txt'):
+        run_no_threads(turtle251, log, main_turtle)
     
     main_turtle.clear()
 
