@@ -29,6 +29,7 @@ import threading
 import os
 from cse251turtle import *
 
+
 # Include CSE 251 common Python files. 
 from cse251 import *
 
@@ -101,6 +102,8 @@ def draw_squares(tur, lock):
             lock.acquire()
             draw_square(tur, x - 50, y + 50, 100)
             lock.release()
+            
+
 
 
 def draw_circles(tur, lock):
@@ -110,7 +113,7 @@ def draw_circles(tur, lock):
             lock.acquire()
             draw_circle(tur, x, y-2, 50)
             lock.release()
-
+            
 
 def draw_triangles(tur, lock):
     """Draw a group of triangles"""
@@ -119,6 +122,7 @@ def draw_triangles(tur, lock):
             lock.acquire()
             draw_triangle(tur, x-30, y-30+10, 60)
             lock.release()
+            
 
 
 def draw_rectangles(tur, lock):
@@ -128,6 +132,7 @@ def draw_rectangles(tur, lock):
             lock.acquire()
             draw_rectangle(tur, x-10, y+5, 20, 15)
             lock.release()
+            
 
 
 def run_no_threads(tur, log, main_turtle):
