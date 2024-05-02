@@ -73,11 +73,11 @@ if __name__ == '__main__':
     #        team_get_deck_id.py program once. You can have
     #        multiple decks if you need them
 
-    deck_id = 'ENTER ID HERE'
+    deck_id = 'lx3bkbz847cj'
 
     deck = Deck(deck_id)
 
-    for i in range(55):
+    for i in range(52):
         card = deck.draw_endless()
         print(f'card {i + 1}: {card}', flush=True)
 
