@@ -54,7 +54,21 @@ call_count = 0
 
 
 # TODO Add your threaded class definition here
+class Request_thread(threading.Thread):
 
+    def __init__(self, url):
+        # Call the Thread class's init function
+        threading.Thread.__init__(self)
+        self.url = url
+        self.response = {}
+
+    def run(self):
+        response = requests.get(self.url)
+        # Check the status code to see if the request succeeded.
+        if response.status_code == 200:
+            self.response = response.json()
+        else:
+            print('RESPONSE = ', response.status_code)
 
 # TODO Add any functions you need here
 
@@ -65,9 +79,41 @@ def main():
 
     # TODO Retrieve Top API urls
 
+    req_top = Request_thread(TOP_API_URL)
+
+    req_top.start()
+    
+    req_top.join()
+
+
     # TODO Retireve Details on film 6
 
+    req_people = Request_thread(req_top.response["people"])
+    req_planets = Request_thread(req_top.response["planets"])
+    req_films = Request_thread(req_top.response["films"])
+    req_ships = Request_thread(req_top.response["starships"])
+    req_vehicles = Request_thread(req_top.response["vehicles"])
+    req_species = Request_thread(req_top.response["species"])
+
+    req_people.start()
+    req_planets.start()
+    req_films.start()
+    req_ships.start()
+    req_vehicles.start()
+    req_species.start()
+
+    req_people.join()
+    req_planets.join()
+    req_films.join()
+    req_ships.join()
+    req_vehicles.join()
+    req_species.join()
+
+
     # TODO Display results
+
+
+    
 
     log.stop_timer('Total Time To complete')
     log.write(f'There were {call_count} calls to the server')
