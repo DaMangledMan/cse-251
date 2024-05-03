@@ -74,6 +74,8 @@ class Request_thread(threading.Thread):
 
 
 def main():
+    global call_count
+
     log = Log(show_terminal=True)
     log.start_timer('Starting to retrieve data from the server')
 
@@ -84,36 +86,153 @@ def main():
     req_top.start()
     
     req_top.join()
+    call_count += 1
 
 
     # TODO Retireve Details on film 6
 
-    req_people = Request_thread(req_top.response["people"])
-    req_planets = Request_thread(req_top.response["planets"])
-    req_films = Request_thread(req_top.response["films"])
-    req_ships = Request_thread(req_top.response["starships"])
-    req_vehicles = Request_thread(req_top.response["vehicles"])
-    req_species = Request_thread(req_top.response["species"])
+    # collecting film 6 data
+    film6_url = req_top.response["films"]
+    film6_url += "6"
 
-    req_people.start()
-    req_planets.start()
-    req_films.start()
-    req_ships.start()
-    req_vehicles.start()
-    req_species.start()
+    req_film6 = Request_thread(film6_url)
+    
+    req_film6.start()
+    
+    req_film6.join()
+    call_count += 1
 
-    req_people.join()
-    req_planets.join()
-    req_films.join()
-    req_ships.join()
-    req_vehicles.join()
-    req_species.join()
+    # collecting information for each category of information
+    
+    # Start
+
+    # Characters
+    num_of_characters = 0
+    ch_threads = []
+    ch_names_list = []
+
+    for ch_url in req_film6.response["characters"]:
+        num_of_characters += 1
+        ch_t = Request_thread(ch_url)
+        ch_threads.append(ch_t)
+        ch_t.start()
+    
+    # planets
+    num_of_planets = 0
+    pl_threads = []
+    pl_names_list = []
+
+    for pl_url in req_film6.response["planets"]:
+        num_of_planets += 1
+        pl_t = Request_thread(pl_url)
+        pl_threads.append(pl_t)
+        pl_t.start()
+    
+    # starships
+    num_of_starships = 0
+    ss_threads = []
+    ss_names_list = []
+
+    for ss_url in req_film6.response["starships"]:
+        num_of_starships += 1
+        ss_t = Request_thread(ss_url)
+        ss_threads.append(ss_t)
+        ss_t.start()
+    
+    # vehicles
+    num_of_vehicles = 0
+    ve_threads = []
+    ve_names_list = []
+
+    for ve_url in req_film6.response["vehicles"]:
+        num_of_vehicles += 1
+        ve_t = Request_thread(ve_url)
+        ve_threads.append(ve_t)
+        ve_t.start()
+    
+    # species
+    num_of_species = 0
+    sp_threads = []
+    sp_names_list = []
+
+    for sp_url in req_film6.response["species"]:
+        num_of_species += 1
+        sp_t = Request_thread(sp_url)
+        sp_threads.append(sp_t)
+        sp_t.start()
+    
+    
+    # Join
+
+    # People
+    for ch_t in ch_threads:
+        ch_t.join()
+        call_count += 1
+        ch_names_list.append(ch_t.response["name"])
+
+    ch_names_list.sort()
+
+    # Planets
+    for pl_t in pl_threads:
+        pl_t.join()
+        call_count += 1
+        pl_names_list.append(pl_t.response["name"])
+
+    pl_names_list.sort()
+
+    # Starships
+    for ss_t in ss_threads:
+        ss_t.join()
+        call_count += 1
+        ss_names_list.append(ss_t.response["name"])
+
+    ss_names_list.sort()
+
+    # Vehicles
+    for ve_t in ve_threads:
+        ve_t.join()
+        call_count += 1
+        ve_names_list.append(ve_t.response["name"])
+
+    ve_names_list.sort()
+
+    # Species
+    for sp_t in sp_threads:
+        sp_t.join()
+        call_count += 1
+        sp_names_list.append(sp_t.response["name"])
+
+    sp_names_list.sort()
+
 
 
     # TODO Display results
 
-
-    
+    log.write("-------------------------------------------------------")
+    title = req_film6.response["title"]
+    log.write(f"Title   : {title}")
+    director = req_film6.response["director"]
+    log.write(f"Director: {director}")
+    producer = req_film6.response["producer"]
+    log.write(f"Producer: {producer}")
+    release_date = req_film6.response["release_date"]
+    log.write(f"Released: {release_date}")
+    log.write_blank_line()
+    log.write(f"Characters: {num_of_characters}")
+    log.write(", ".join(str(x) for x in ch_names_list))
+    log.write_blank_line()
+    log.write(f"Planets: {num_of_planets}")
+    log.write(", ".join(str(x) for x in pl_names_list))
+    log.write_blank_line()
+    log.write(f"Starships: {num_of_starships}")
+    log.write(", ".join(str(x) for x in ss_names_list))
+    log.write_blank_line()
+    log.write(f"Vehicles: {num_of_vehicles}")
+    log.write(", ".join(str(x) for x in ve_names_list))
+    log.write_blank_line()
+    log.write(f"Species: {num_of_species}")
+    log.write(", ".join(str(x) for x in sp_names_list))
+    log.write_blank_line()
 
     log.stop_timer('Total Time To complete')
     log.write(f'There were {call_count} calls to the server')

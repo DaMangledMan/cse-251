@@ -1,0 +1,24 @@
+15:13:23| Starting to retrieve data from the server
+15:13:26| -------------------------------------------------------
+15:13:26| Title   : Revenge of the Sith
+15:13:26| Director: George Lucas
+15:13:26| Producer: Rick McCallum
+15:13:26| Released: 2005-05-19
+15:13:26|  
+15:13:26| Characters: 34
+15:13:26| ['Adi Gallia', 'Anakin Skywalker', 'Ayla Secura', 'Bail Prestor Organa', 'Beru Whitesun lars', 'C-3PO', 'Chewbacca', 'Darth Vader', 'Dooku', 'Eeth Koth', 'Grievous', 'Ki-Adi-Mundi', 'Kit Fisto', 'Leia Organa', 'Luke Skywalker', 'Luminara Unduli', 'Mace Windu', 'Nute Gunray', 'Obi-Wan Kenobi', 'Owen Lars', 'Padmé Amidala', 'Palpatine', 'Plo Koon', 'Poggle the Lesser', 'R2-D2', 'R4-P17', 'Raymus Antilles', 'Saesee Tiin', 'Shaak Ti', 'Sly Moore', 'Tarfful', 'Tion Medon', 'Wilhuff Tarkin', 'Yoda']
+15:13:26|  
+15:13:26| Planets: 13
+15:13:26| ['Alderaan', 'Cato Neimoidia', 'Coruscant', 'Dagobah', 'Felucia', 'Kashyyyk', 'Mustafar', 'Mygeeto', 'Naboo', 'Polis Massa', 'Saleucami', 'Tatooine', 'Utapau']
+15:13:26|  
+15:13:26| Starships: 12
+15:13:26| ['Banking clan frigte', 'Belbullab-22 starfighter', 'CR90 corvette', 'Droid control ship', 'Jedi Interceptor', 'Jedi starfighter', 'Naboo star skiff', 'Republic attack cruiser', 'Theta-class T-2c shuttle', 'Trade Federation cruiser', 'V-wing', 'arc-170']
+15:13:26|  
+15:13:26| Vehicles: 13
+15:13:26| ['AT-RT', 'AT-TE', 'Clone turbo tank', 'Corporate Alliance tank droid', 'Droid gunship', 'Droid tri-fighter', 'Emergency Firespeeder', 'LAAT/i', 'Neimoidian shuttle', 'Oevvaor jet catamaran', 'Raddaugh Gnasp fluttercraft', 'Tsmeu-6 personal wheel bike', 'Vulture Droid']
+15:13:26|  
+15:13:26| Species: 20
+15:13:26| ['Cerean', 'Chagrian', 'Clawdite', 'Droid', 'Geonosian', 'Human', 'Iktotchi', 'Kaleesh', 'Kel Dor', 'Mirialan', 'Muun', 'Pau an', 'Quermian', 'Skakoan', 'Tholothian', 'Togruta', 'Toong', 'Twi lek', 'Wookie', 'Yoda species']
+15:13:26|  
+15:13:26| Total Time To complete = 3.07970410
+15:13:26| There were 94 calls to the server
