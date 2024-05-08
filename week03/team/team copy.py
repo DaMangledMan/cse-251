@@ -144,19 +144,26 @@ class Board():
                 for d in range(0, 8):
                     if self._word_at_this_location(row, col, d, word):
                         return True
-        return False
-
+        return False    
     
+    def find_words(self, words):
+        pr_list = []
+        for word in words:
+            pr = mp.Process(target=self.find_word, args=(word,))
+            pr_list.append(pr)
+            pr.start()
+        for pr in pr_list:
+            pr.join()
+
 
 def main():
     board = Board()
     board.display()
 
     start = time.perf_counter()
-    for word in words:
-        if not board.find_word(word):
-            print(f'Error: Could not find "{word}"')
-    
+
+    board.find_words(words)
+        
     total_time = time.perf_counter() - start
 
     board.display()
