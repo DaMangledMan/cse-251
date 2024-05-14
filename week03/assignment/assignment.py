@@ -15,6 +15,11 @@ Instructions:
 - Only process the given MP4 files for this assignment
 
 ------------------------------------------------------------------------------
+
+Justification:
+
+- It does everything in the requirements and I turned in all the files 
+
 """
 
 from matplotlib.pylab import plt  # load plot library
@@ -31,20 +36,20 @@ CPU_COUNT = mp.cpu_count() + 4
 
 # TODO Your final video need to have 300 processed frames.  However, while you are 
 # testing your code, set this much lower
-FRAME_COUNT = 20
+FRAME_COUNT = 300
 
 RED   = 0
 GREEN = 1
 BLUE  = 2
 
 
-def create_new_frame(image_file, green_file, process_file):
+def create_new_frame(elephant_file, green_file, process_file):
     """ Creates a new image file from image_file and green_file """
 
     # this print() statement is there to help see which frame is being processed
     print(f'{process_file[-7:-4]}', end=',', flush=True)
 
-    image_img = Image.open(image_file)
+    image_img = Image.open(elephant_file)
     green_img = Image.open(green_file)
 
     # Make Numpy array
@@ -62,11 +67,20 @@ def create_new_frame(image_file, green_file, process_file):
 
 # TODO add any functions to need here
 
+def unpack_list_and_create(list):
+    elephant_file = list[0]
+    green_file = list[1]
+    process_file = list[2]
+
+    create_new_frame(elephant_file, green_file, process_file)
+
 
 
 if __name__ == '__main__':
     # single_file_processing(300)
-    # print('cpu_count() =', cpu_count())
+    print('cpu_count() =', CPU_COUNT)
+
+    
 
     all_process_time = timeit.default_timer()
     log = Log(show_terminal=True)
@@ -80,19 +94,48 @@ if __name__ == '__main__':
 
     # sample code: remove before submitting  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     # process one frame #10
-    image_number = 10
 
-    image_file = rf'elephant/image{image_number:03d}.png'
-    green_file = rf'green/image{image_number:03d}.png'
-    process_file = rf'processed/image{image_number:03d}.png'
+    img_prep_list = []
+
+    for img_num in range(FRAME_COUNT):
+
+        elephant_file = rf'elephant/image{img_num+1:03d}.png'
+        green_file = rf'green/image{img_num+1:03d}.png'
+        process_file = rf'processed/image{img_num+1:03d}.png'
+
+        individual_img_list = [elephant_file, green_file, process_file]
+
+        img_prep_list.append(individual_img_list)
+
+
+
+
+    
 
     start_time = timeit.default_timer()
-    create_new_frame(image_file, green_file, process_file)
-    print(f'\nTime To Process all images = {timeit.default_timer() - start_time}')
+
+
+    # create_new_frame(elephant_file, green_file, process_file)
+    
+    for i in range(CPU_COUNT):
+        xaxis_cpus.append(i+1)
+
+        sub_start_time = timeit.default_timer()
+        pool = mp.Pool(processes=i+1)
+        results = pool.map(unpack_list_and_create, img_prep_list)
+        yaxis_times.append(timeit.default_timer() - sub_start_time)
+        log.write(f'\nTime To Process all images = {timeit.default_timer() - sub_start_time} with {i+1} processors')
+
+        
+    
+    
+     
+    
+    
+    
     # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-
-    log.write(f'Total Time for ALL processing: {timeit.default_timer() - all_process_time}')
+    log.write(f'\nTotal Time for ALL processing: {timeit.default_timer() - all_process_time}')
 
     # create plot of results and also save it to a PNG file
     plt.plot(xaxis_cpus, yaxis_times, label=f'{FRAME_COUNT}')
