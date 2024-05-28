@@ -18,8 +18,6 @@ import threading
 import multiprocessing as mp
 import random
 from os.path import exists
-import queue
-
 
 
 #Include cse 251 common Python files
