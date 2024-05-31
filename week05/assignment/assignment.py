@@ -110,7 +110,7 @@ class Factory(threading.Thread):
         self.factory_stats.append(self.cars_to_produce)
 
         # TODO wait until all of the factories are finished producing cars
-        self.B.wait
+        self.B.wait()
         # TODO "Wake up/signal" the dealerships one more time.  Select one factory to do this
         self.Q.put(None)
         self.cars_need_sold_sem.release()
