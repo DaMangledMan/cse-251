@@ -1,0 +1,142 @@
+2024-06-03 21:19:31.986461: {'Large_Marble': 'Maximum Violet', 'Bag_of_Marbles': ['Russian Green', 'Orange Peel', 'Orange Soda', 'Rose Quartz', 'Ivory', 'Russian Green', 'Indigo']}
+2024-06-03 21:19:32.059631: {'Large_Marble': 'Mimi Pink', 'Bag_of_Marbles': ['Candy Pink', 'Rose Quartz', 'Purple', 'Mulberry', 'Russian Violet', 'Light Orchid', 'Light Orange']}
+2024-06-03 21:19:32.132566: {'Large_Marble': 'Fiery Rose', 'Bag_of_Marbles': ['Purple', 'Bistre Brown', 'Pale Goldenrod', 'Mango Tango', 'Platinum', 'Middle Green', 'Sheen Green']}
+2024-06-03 21:19:32.204500: {'Large_Marble': 'Black Coral', 'Bag_of_Marbles': ['Terra Cotta', 'Shandy', 'Beaver', 'Blue-Green', 'Cobalt Blue', 'Mint Cream', 'Royal Orange']}
+2024-06-03 21:19:32.277256: {'Large_Marble': 'Safety Yellow', 'Bag_of_Marbles': ['Middle Green Yellow', 'Dark Fuchsia', 'Sage', 'Neon Dark Green', 'Pale Plum', 'Russian Green', 'Silver Chalice']}
+2024-06-03 21:19:32.350374: {'Large_Marble': 'Neon Silver', 'Bag_of_Marbles': ['Lavender Purple', 'Gold', 'Granny Smith Apple', 'Ruby', 'Gold', 'Icterine', 'Blue Bell']}
+2024-06-03 21:19:32.423283: {'Large_Marble': 'Silver Pink', 'Bag_of_Marbles': ['Lilac Luster', 'Cobalt Blue', 'Brown', 'Spanish Orange', 'Spanish Pink', 'Mango Tango', 'Mint Green']}
+2024-06-03 21:19:32.496157: {'Large_Marble': 'Pastel Blue', 'Bag_of_Marbles': ['Brown', 'Brown', 'Brink Pink', 'Green', 'La Salle Green', 'Platinum', 'Gold']}
+2024-06-03 21:19:32.570027: {'Large_Marble': 'Middle Green', 'Bag_of_Marbles': ['Maximum Blue', 'Duke Blue', 'Arylide Yellow', 'Maximum Blue', 'Pale Cerulean', 'Mint Cream', 'Blue Bell']}
+2024-06-03 21:19:32.643313: {'Large_Marble': 'Outrageous Orange', 'Bag_of_Marbles': ['Cobalt Blue', 'Lemon Lime', 'Pale Taupe', 'Thulian Pink', 'Blue Bell', 'Beaver', 'Auburn']}
+2024-06-03 21:19:32.716565: {'Large_Marble': 'Lavender Blue', 'Bag_of_Marbles': ['Duke Blue', 'Lumber', 'Light Orchid', 'Middle Red Purple', 'Mint Green', 'Spanish Carmine', 'Liver Chestnut']}
+2024-06-03 21:19:32.789851: {'Large_Marble': 'Middle Red Purple', 'Bag_of_Marbles': ['Blue Bell', 'Orange Soda', 'Gold', 'Middle Green Yellow', 'Beaver', 'Sage', 'Mint Cream']}
+2024-06-03 21:19:32.862345: {'Large_Marble': 'Fiery Rose', 'Bag_of_Marbles': ['Icterine', 'Maximum Purple', 'Pale Taupe', 'Fiery Rose', 'Big Dip O’ruby', 'Honeydew', 'Pale Goldenrod']}
+2024-06-03 21:19:32.934578: {'Large_Marble': 'Lumber', 'Bag_of_Marbles': ['Orange Soda', 'Antique Bronze', 'Silver Pink', 'Neon Dark Green', 'Ivory', 'Russian Green', 'Maximum Violet']}
+2024-06-03 21:19:33.007380: {'Large_Marble': 'Dark Fuchsia', 'Bag_of_Marbles': ['Sage', 'Auburn', 'Granny Smith Apple', 'Chinese Red', 'Spanish Orange', 'Mimi Pink', 'Neon Pink']}
+2024-06-03 21:19:33.081265: {'Large_Marble': 'Purple Plum', 'Bag_of_Marbles': ['Candy Pink', 'Pale Goldenrod', 'Spanish Pink', 'Bistre Brown', 'Middle Green', 'Chinese Red', 'White Smoke']}
+2024-06-03 21:19:33.155756: {'Large_Marble': 'Dark Moss Green', 'Bag_of_Marbles': ['Orange Peel', 'Black Coral', 'Isabelline', 'Almond', 'Stop Red', 'Arylide Yellow', 'Almond']}
+2024-06-03 21:19:33.229042: {'Large_Marble': 'Thulian Pink', 'Bag_of_Marbles': ['Silver Chalice', 'Arylide Yellow', 'Brown', 'Royal Red', 'Maximum Purple', 'Purple', 'Pastel Gray']}
+2024-06-03 21:19:33.301735: {'Large_Marble': 'La Salle Green', 'Bag_of_Marbles': ['Emerald', 'Mango Tango', 'Thulian Pink', 'Neon Silver', 'Middle Red Purple', 'La Salle Green', 'Pale Cerulean']}
+2024-06-03 21:19:33.374355: {'Large_Marble': 'Tuscan Brown', 'Bag_of_Marbles': ['Beaver', 'Orange Soda', 'Brown', 'Gold', 'Blue Bell', 'Gold', 'Indigo']}
+2024-06-03 21:19:33.447253: {'Large_Marble': 'Orange Soda', 'Bag_of_Marbles': ['Middle Green', 'Royal Red', 'White Smoke', 'Orange Soda', 'Gold', 'Orange Peel', 'Safety Yellow']}
+2024-06-03 21:19:33.520122: {'Large_Marble': 'Purple Plum', 'Bag_of_Marbles': ['Vegas Gold', 'Orange Soda', 'Royal Blue', 'Pale Goldenrod', 'Gold', 'Russian Green', 'Lilac Luster']}
+2024-06-03 21:19:33.592386: {'Large_Marble': 'Neon Dark Green', 'Bag_of_Marbles': ['Maximum Purple', 'Vegas Gold', 'Safety Yellow', 'Spanish Pink', 'Spanish Pink', 'Orange Soda', 'Lemon Lime']}
+2024-06-03 21:19:33.665764: {'Large_Marble': 'Ivory', 'Bag_of_Marbles': ['Ivory', 'Arylide Yellow', 'Icterine', 'Platinum', 'Duke Blue', 'Almond', 'Neon Silver']}
+2024-06-03 21:19:33.737800: {'Large_Marble': 'Cotton Candy', 'Bag_of_Marbles': ['Middle Green', 'Middle Green Yellow', 'Stop Red', 'Duke Blue', 'Pale Goldenrod', 'Beaver', 'Lumber']}
+2024-06-03 21:19:33.810182: {'Large_Marble': 'Terra Cotta', 'Bag_of_Marbles': ['Outrageous Orange', 'Blue', 'Russian Green', 'Outrageous Orange', 'Silver Pink', 'Cobalt Blue', 'Stop Red']}
+2024-06-03 21:19:33.882775: {'Large_Marble': 'Cotton Candy', 'Bag_of_Marbles': ['Maximum Purple', 'Beaver', 'Neon Pink', 'Chinese Red', 'Pastel Gray', 'Cobalt Blue', 'Lavender Blue']}
+2024-06-03 21:19:33.955788: {'Large_Marble': 'Indigo', 'Bag_of_Marbles': ['Spanish Carmine', 'Spanish Carmine', 'Golden Yellow', 'Maximum Blue', 'Blue-Green', 'Emerald', 'Shandy']}
+2024-06-03 21:19:34.028025: {'Large_Marble': 'Middle Green Yellow', 'Bag_of_Marbles': ['Spanish Carmine', 'Mulberry', 'Ruby', 'Orange Soda', 'Mulberry', 'Middle Red Purple', 'Orange Peel']}
+2024-06-03 21:19:34.101793: {'Large_Marble': 'Antique Bronze', 'Bag_of_Marbles': ['Big Dip O’ruby', 'Thulian Pink', 'Isabelline', 'Indigo', 'Middle Red Purple', 'White Smoke', 'Neon Silver']}
+2024-06-03 21:19:34.174707: {'Large_Marble': 'Royal Orange', 'Bag_of_Marbles': ['Ivory', 'Emerald', 'Green', 'Gold', 'Orange Peel', 'Brown', 'Russian Violet']}
+2024-06-03 21:19:34.248569: {'Large_Marble': 'Dark Moss Green', 'Bag_of_Marbles': ['Neon Dark Green', 'Cobalt Blue', 'Almond', 'Mango Tango', 'Orange Soda', 'Lavender Purple', 'Pastel Gray']}
+2024-06-03 21:19:34.321847: {'Large_Marble': 'Liver Chestnut', 'Bag_of_Marbles': ['Vegas Gold', 'Thulian Pink', 'Slate Blue', 'White Smoke', 'Orange Soda', 'Cotton Candy', 'Brink Pink']}
+2024-06-03 21:19:34.394683: {'Large_Marble': 'Sheen Green', 'Bag_of_Marbles': ['Blue Bell', 'Vegas Gold', 'Light Orchid', 'Brown', 'Outrageous Orange', 'Dark Fuchsia', 'Royal Orange']}
+2024-06-03 21:19:34.469558: {'Large_Marble': 'Liver Chestnut', 'Bag_of_Marbles': ['Spanish Carmine', 'Duke Blue', 'Rose Quartz', 'Spanish Carmine', 'Mint Green', 'Lumber', 'Antique Bronze']}
+2024-06-03 21:19:34.542022: {'Large_Marble': 'Platinum', 'Bag_of_Marbles': ['Brink Pink', 'Blue', 'Light Orchid', 'Beaver', 'Mimi Pink', 'Candy Pink', 'Silver Chalice']}
+2024-06-03 21:19:34.615053: {'Large_Marble': 'Spanish Carmine', 'Bag_of_Marbles': ['Arylide Yellow', 'Mulberry', 'Middle Green', 'Lemon Lime', 'Russian Violet', 'Emerald', 'Orange Soda']}
+2024-06-03 21:19:34.689158: {'Large_Marble': 'Antique Brass', 'Bag_of_Marbles': ['Purple', 'Antique Brass', 'Pale Goldenrod', 'Royal Orange', 'Royal Blue', 'Rose Quartz', 'Spanish Carmine']}
+2024-06-03 21:19:34.762079: {'Large_Marble': 'Sheen Green', 'Bag_of_Marbles': ['Safety Yellow', 'Rose Quartz', 'Middle Red Purple', 'Duke Blue', 'Ruby', 'Big Dip O’ruby', 'Gold']}
+2024-06-03 21:19:34.835297: {'Large_Marble': 'Lemon Lime', 'Bag_of_Marbles': ['Orange Peel', 'Maximum Violet', 'Icterine', 'Brink Pink', 'Lumber', 'Mode Beige', 'Duke Blue']}
+2024-06-03 21:19:34.908145: {'Large_Marble': 'Pale Goldenrod', 'Bag_of_Marbles': ['Neon Dark Green', 'Mode Beige', 'Almond', 'Purple', 'Pale Cerulean', 'Dark Fuchsia', 'Duke Blue']}
+2024-06-03 21:19:34.980886: {'Large_Marble': 'Gold', 'Bag_of_Marbles': ['Light Orange', 'Middle Green', 'Middle Green Yellow', 'Neon Dark Green', 'Zomp', 'Rose Dust', 'Blue-Green']}
+2024-06-03 21:19:35.052764: {'Large_Marble': 'Lemon Lime', 'Bag_of_Marbles': ['Eerie Black', 'Platinum', 'Royal Red', 'Light Orchid', 'Maximum Violet', 'Lemon Lime', 'Pastel Gray']}
+2024-06-03 21:19:35.126641: {'Large_Marble': 'Icterine', 'Bag_of_Marbles': ['Brown', 'White Smoke', 'Pale Goldenrod', 'Duke Blue', 'Silver Chalice', 'Sheen Green', 'Honeydew']}
+2024-06-03 21:19:35.200198: {'Large_Marble': 'Beaver', 'Bag_of_Marbles': ['Sage', 'Golden Yellow', 'Tuscan Brown', 'Brink Pink', 'Zomp', 'Terra Cotta', 'Silver Pink']}
+2024-06-03 21:19:35.272998: {'Large_Marble': 'Orange Soda', 'Bag_of_Marbles': ['Mode Beige', 'Neon Silver', 'Thulian Pink', 'Purple Plum', 'Antique Bronze', 'White Smoke', 'Maximum Purple']}
+2024-06-03 21:19:35.346374: {'Large_Marble': 'Pale Goldenrod', 'Bag_of_Marbles': ['Mulberry', 'Sheen Green', 'Russian Green', 'Dark Fuchsia', 'Honeydew', 'Ivory', 'Mint Green']}
+2024-06-03 21:19:35.418850: {'Large_Marble': 'Chinese Red', 'Bag_of_Marbles': ['Mode Beige', 'Blue Bell', 'Orange Peel', 'Blue Bell', 'Royal Orange', 'Lavender Blue', 'Orange Soda']}
+2024-06-03 21:19:35.492290: {'Large_Marble': 'Lavender Blue', 'Bag_of_Marbles': ['Mango Tango', 'Chinese Red', 'Auburn', 'Gold', 'Mode Beige', 'Blue', 'Lavender Blue']}
+2024-06-03 21:19:35.564281: {'Large_Marble': 'Maximum Violet', 'Bag_of_Marbles': ['Brink Pink', 'Granny Smith Apple', 'Light Orchid', 'Icterine', 'Tuscan Brown', 'Mango Tango', 'Brown']}
+2024-06-03 21:19:35.637768: {'Large_Marble': 'Light Orchid', 'Bag_of_Marbles': ['Antique Bronze', 'Lilac Luster', 'Thulian Pink', 'Emerald', 'Venetian Red', 'Granny Smith Apple', 'Emerald']}
+2024-06-03 21:19:35.710749: {'Large_Marble': 'Gold', 'Bag_of_Marbles': ['Eerie Black', 'Maximum Violet', 'Stop Red', 'Duke Blue', 'Icterine', 'Lilac Luster', 'Indigo']}
+2024-06-03 21:19:35.783050: {'Large_Marble': 'Mulberry', 'Bag_of_Marbles': ['Lilac Luster', 'Spanish Carmine', 'Silver Pink', 'Lumber', 'Almond', 'Rose Dust', 'Neon Pink']}
+2024-06-03 21:19:35.855530: {'Large_Marble': 'Orange Peel', 'Bag_of_Marbles': ['Eerie Black', 'La Salle Green', 'Slate Blue', 'Mint Cream', 'Liver Chestnut', 'Purple Plum', 'Chinese Red']}
+2024-06-03 21:19:35.928423: {'Large_Marble': 'Cobalt Blue', 'Bag_of_Marbles': ['Slate Blue', 'Mode Beige', 'Purple', 'Tuscan Brown', 'Pale Cerulean', 'Thulian Pink', 'Vegas Gold']}
+2024-06-03 21:19:36.001126: {'Large_Marble': 'Arylide Yellow', 'Bag_of_Marbles': ['Orange Soda', 'Spanish Pink', 'Lumber', 'Neon Silver', 'Maximum Violet', 'Zomp', 'Royal Red']}
+2024-06-03 21:19:36.074047: {'Large_Marble': 'Maximum Violet', 'Bag_of_Marbles': ['Dark Fuchsia', 'Lemon Lime', 'Vegas Gold', 'Eerie Black', 'Neon Silver', 'Terra Cotta', 'Royal Red']}
+2024-06-03 21:19:36.146867: {'Large_Marble': 'Dark Fuchsia', 'Bag_of_Marbles': ['Pastel Blue', 'Silver Pink', 'Blue Bell', 'Isabelline', 'Cotton Candy', 'Honeydew', 'Mango Tango']}
+2024-06-03 21:19:36.220399: {'Large_Marble': 'Antique Brass', 'Bag_of_Marbles': ['Almond', 'Brink Pink', 'Middle Green', 'Icterine', 'Venetian Red', 'Neon Dark Green', 'Almond']}
+2024-06-03 21:19:36.293852: {'Large_Marble': 'Lumber', 'Bag_of_Marbles': ['Green', 'Fiery Rose', 'Royal Blue', 'Black Coral', 'Spanish Orange', 'Zomp', 'Maximum Purple']}
+2024-06-03 21:19:36.365934: {'Large_Marble': 'Thulian Pink', 'Bag_of_Marbles': ['Mode Beige', 'Neon Silver', 'Maximum Purple', 'Neon Pink', 'Cotton Candy', 'Russian Green', 'Blue']}
+2024-06-03 21:19:36.438323: {'Large_Marble': 'Granny Smith Apple', 'Bag_of_Marbles': ['Spanish Orange', 'Brown', 'Auburn', 'Honeydew', 'Arylide Yellow', 'Neon Pink', 'Pastel Blue']}
+2024-06-03 21:19:36.510943: {'Large_Marble': 'Purple', 'Bag_of_Marbles': ['Tuscan Brown', 'Lavender Purple', 'Arylide Yellow', 'Emerald', 'Pale Cerulean', 'Dark Moss Green', 'Gold']}
+2024-06-03 21:19:36.583883: {'Large_Marble': 'Zomp', 'Bag_of_Marbles': ['Cobalt Blue', 'Neon Pink', 'Orange Soda', 'Lemon Lime', 'Blue-Green', 'Pale Cerulean', 'Black Coral']}
+2024-06-03 21:19:36.656375: {'Large_Marble': 'Lemon Lime', 'Bag_of_Marbles': ['Emerald', 'Mimi Pink', 'Orange Peel', 'Arylide Yellow', 'Icterine', 'Auburn', 'Slate Blue']}
+2024-06-03 21:19:36.729937: {'Large_Marble': 'Beaver', 'Bag_of_Marbles': ['Big Dip O’ruby', 'Arylide Yellow', 'Silver Pink', 'Silver Chalice', 'Orange Soda', 'Orange Peel', 'Lilac Luster']}
+2024-06-03 21:19:36.803466: {'Large_Marble': 'Bistre Brown', 'Bag_of_Marbles': ['Sage', 'Almond', 'Mulberry', 'Lavender Purple', 'Lilac Luster', 'White Smoke', 'Lemon Lime']}
+2024-06-03 21:19:36.877086: {'Large_Marble': 'Neon Pink', 'Bag_of_Marbles': ['Slate Blue', 'Candy Pink', 'Blue', 'Vegas Gold', 'Middle Green Yellow', 'Venetian Red', 'Black Coral']}
+2024-06-03 21:19:36.949592: {'Large_Marble': 'Isabelline', 'Bag_of_Marbles': ['Mulberry', 'Neon Pink', 'Shandy', 'Dark Fuchsia', 'Dark Moss Green', 'Stop Red', 'Rose Dust']}
+2024-06-03 21:19:37.022924: {'Large_Marble': 'Light Orange', 'Bag_of_Marbles': ['Light Orange', 'Green', 'Arylide Yellow', 'Ivory', 'Mimi Pink', 'Auburn', 'Middle Green']}
+2024-06-03 21:19:37.095770: {'Large_Marble': 'Tuscan Brown', 'Bag_of_Marbles': ['Brown', 'Lemon Lime', 'Neon Dark Green', 'Granny Smith Apple', 'Arylide Yellow', 'Gold', 'Royal Red']}
+2024-06-03 21:19:37.168845: {'Large_Marble': 'Venetian Red', 'Bag_of_Marbles': ['Sage', 'Pastel Blue', 'Pale Taupe', 'Maximum Blue', 'Royal Blue', 'Mint Cream', 'Pale Goldenrod']}
+2024-06-03 21:19:37.240948: {'Large_Marble': 'Auburn', 'Bag_of_Marbles': ['Purple', 'La Salle Green', 'Silver Chalice', 'Venetian Red', 'White Smoke', 'Rose Quartz', 'Liver Chestnut']}
+2024-06-03 21:19:37.313954: {'Large_Marble': 'Icterine', 'Bag_of_Marbles': ['Spanish Pink', 'Light Orchid', 'Russian Green', 'Vegas Gold', 'Ivory', 'Mint Green', 'Slate Blue']}
+2024-06-03 21:19:37.386728: {'Large_Marble': 'Isabelline', 'Bag_of_Marbles': ['Neon Dark Green', 'Mode Beige', 'Liver Chestnut', 'Tuscan Brown', 'Brown', 'Purple Plum', 'Granny Smith Apple']}
+2024-06-03 21:19:37.459269: {'Large_Marble': 'Pale Plum', 'Bag_of_Marbles': ['Arylide Yellow', 'Shandy', 'Green', 'Auburn', 'Sage', 'Candy Pink', 'Emerald']}
+2024-06-03 21:19:37.532873: {'Large_Marble': 'Auburn', 'Bag_of_Marbles': ['Lavender Blue', 'Indigo', 'Duke Blue', 'Pale Taupe', 'Gold', 'Safety Yellow', 'Dark Fuchsia']}
+2024-06-03 21:19:37.605483: {'Large_Marble': 'Mode Beige', 'Bag_of_Marbles': ['Venetian Red', 'Blue-Green', 'Sheen Green', 'Middle Green Yellow', 'Zomp', 'Ivory', 'Arylide Yellow']}
+2024-06-03 21:19:37.677847: {'Large_Marble': 'Pale Plum', 'Bag_of_Marbles': ['Stop Red', 'Safety Yellow', 'Ivory', 'Purple', 'Granny Smith Apple', 'Almond', 'Shandy']}
+2024-06-03 21:19:37.750064: {'Large_Marble': 'Brown', 'Bag_of_Marbles': ['Venetian Red', 'Middle Green Yellow', 'Silver Chalice', 'Brown', 'Light Orange', 'Middle Green Yellow', 'Shandy']}
+2024-06-03 21:19:37.822157: {'Large_Marble': 'Brown', 'Bag_of_Marbles': ['Gold', 'Emerald', 'Chinese Red', 'Zomp', 'Pastel Blue', 'Thulian Pink', 'Eerie Black']}
+2024-06-03 21:19:37.894347: {'Large_Marble': 'Orange Soda', 'Bag_of_Marbles': ['Blue Bell', 'Middle Green Yellow', 'Spanish Pink', 'Mango Tango', 'Mimi Pink', 'Orange Peel', 'Terra Cotta']}
+2024-06-03 21:19:37.966930: {'Large_Marble': 'Lilac Luster', 'Bag_of_Marbles': ['Maximum Purple', 'Mint Cream', 'White Smoke', 'Maximum Blue', 'Lavender Blue', 'Dark Fuchsia', 'Royal Red']}
+2024-06-03 21:19:38.041094: {'Large_Marble': 'Neon Dark Green', 'Bag_of_Marbles': ['Orange Soda', 'Royal Blue', 'Pastel Gray', 'Indigo', 'Neon Silver', 'Ruby', 'Sheen Green']}
+2024-06-03 21:19:38.113974: {'Large_Marble': 'Auburn', 'Bag_of_Marbles': ['Maximum Violet', 'Arylide Yellow', 'Dark Moss Green', 'Outrageous Orange', 'Sheen Green', 'Bistre Brown', 'Mimi Pink']}
+2024-06-03 21:19:38.187002: {'Large_Marble': 'Sheen Green', 'Bag_of_Marbles': ['Slate Blue', 'Stop Red', 'Zomp', 'Orange Soda', 'Neon Pink', 'Middle Green Yellow', 'Isabelline']}
+2024-06-03 21:19:38.260397: {'Large_Marble': 'Blue Bell', 'Bag_of_Marbles': ['Duke Blue', 'Brown', 'Brink Pink', 'Arylide Yellow', 'Cobalt Blue', 'Stop Red', 'Pale Goldenrod']}
+2024-06-03 21:19:38.333110: {'Large_Marble': 'Big Dip O’ruby', 'Bag_of_Marbles': ['Cotton Candy', 'Isabelline', 'Cobalt Blue', 'Chinese Red', 'Purple Plum', 'Orange Peel', 'Mint Cream']}
+2024-06-03 21:19:38.405938: {'Large_Marble': 'Lavender Blue', 'Bag_of_Marbles': ['Shandy', 'Orange Soda', 'Rose Dust', 'Isabelline', 'Lilac Luster', 'Light Orange', 'Slate Blue']}
+2024-06-03 21:19:38.478017: {'Large_Marble': 'Spanish Orange', 'Bag_of_Marbles': ['Maximum Purple', 'Icterine', 'Thulian Pink', 'Emerald', 'Middle Green', 'Royal Blue', 'Dark Fuchsia']}
+2024-06-03 21:19:38.550131: {'Large_Marble': 'Green', 'Bag_of_Marbles': ['Orange Peel', 'Orange Soda', 'Blue-Green', 'Brink Pink', 'Pale Goldenrod', 'Outrageous Orange', 'Mimi Pink']}
+2024-06-03 21:19:38.621672: {'Large_Marble': 'Spanish Pink', 'Bag_of_Marbles': ['Sheen Green', 'Rose Quartz', 'Mimi Pink', 'Brink Pink', 'Mango Tango', 'Mulberry', 'Lumber']}
+2024-06-03 21:19:38.693859: {'Large_Marble': 'Lavender Purple', 'Bag_of_Marbles': ['Icterine', 'Lemon Lime', 'Mint Cream', 'Orange Soda', 'Silver Chalice', 'Orange Peel', 'Shandy']}
+2024-06-03 21:19:38.765546: {'Large_Marble': 'Auburn', 'Bag_of_Marbles': ['Maximum Purple', 'Icterine', 'Green', 'Liver Chestnut', 'Pale Plum', 'La Salle Green', 'Eerie Black']}
+2024-06-03 21:19:38.838754: {'Large_Marble': 'Maximum Blue', 'Bag_of_Marbles': ['Mode Beige', 'White Smoke', 'Russian Green', 'Lemon Lime', 'Fiery Rose', 'Mulberry', 'Granny Smith Apple']}
+2024-06-03 21:19:38.911430: {'Large_Marble': 'Lumber', 'Bag_of_Marbles': ['Neon Silver', 'Purple', 'Outrageous Orange', 'Ivory', 'Dark Fuchsia', 'Golden Yellow', 'Spanish Orange']}
+2024-06-03 21:19:38.985063: {'Large_Marble': 'Royal Blue', 'Bag_of_Marbles': ['Silver Pink', 'Lilac Luster', 'Dark Moss Green', 'Black Coral', 'Light Orange', 'Platinum', 'Almond']}
+2024-06-03 21:19:39.057270: {'Large_Marble': 'Almond', 'Bag_of_Marbles': ['Arylide Yellow', 'Blue', 'Maximum Purple', 'Orange Soda', 'Zomp', 'Ivory', 'Gold']}
+2024-06-03 21:19:39.129558: {'Large_Marble': 'Icterine', 'Bag_of_Marbles': ['Maximum Purple', 'Royal Orange', 'Light Orchid', 'Isabelline', 'Silver Chalice', 'Mulberry', 'Lavender Purple']}
+2024-06-03 21:19:39.203013: {'Large_Marble': 'Antique Bronze', 'Bag_of_Marbles': ['Spanish Orange', 'Indigo', 'Maximum Purple', 'Brink Pink', 'Royal Orange', 'Royal Red', 'Maximum Violet']}
+2024-06-03 21:19:39.275339: {'Large_Marble': 'Pale Plum', 'Bag_of_Marbles': ['Lavender Blue', 'Spanish Orange', 'Mint Cream', 'Antique Brass', 'Russian Violet', 'Honeydew', 'Dark Fuchsia']}
+2024-06-03 21:19:39.348248: {'Large_Marble': 'Candy Pink', 'Bag_of_Marbles': ['Purple', 'Gold', 'Zomp', 'Mode Beige', 'Spanish Pink', 'Lavender Blue', 'Royal Orange']}
+2024-06-03 21:19:39.420899: {'Large_Marble': 'Mulberry', 'Bag_of_Marbles': ['Outrageous Orange', 'Mango Tango', 'Granny Smith Apple', 'Middle Red Purple', 'Antique Brass', 'Light Orchid', 'Isabelline']}
+2024-06-03 21:19:39.493335: {'Large_Marble': 'Russian Green', 'Bag_of_Marbles': ['Rose Quartz', 'Royal Orange', 'Outrageous Orange', 'Honeydew', 'Pastel Blue', 'Duke Blue', 'Black Coral']}
+2024-06-03 21:19:39.565862: {'Large_Marble': 'Honeydew', 'Bag_of_Marbles': ['Cotton Candy', 'Pale Plum', 'Lumber', 'Gold', 'Purple', 'Pale Plum', 'Emerald']}
+2024-06-03 21:19:39.638285: {'Large_Marble': 'Royal Red', 'Bag_of_Marbles': ['Stop Red', 'Safety Yellow', 'Lumber', 'Middle Red Purple', 'Slate Blue', 'Spanish Carmine', 'Chinese Red']}
+2024-06-03 21:19:39.711055: {'Large_Marble': 'Orange Peel', 'Bag_of_Marbles': ['Green', 'Candy Pink', 'Emerald', 'Mimi Pink', 'Pale Cerulean', 'Terra Cotta', 'Mint Cream']}
+2024-06-03 21:19:39.783888: {'Large_Marble': 'Terra Cotta', 'Bag_of_Marbles': ['Platinum', 'Ivory', 'Gold', 'Ruby', 'Pale Goldenrod', 'La Salle Green', 'Beaver']}
+2024-06-03 21:19:39.855684: {'Large_Marble': 'Spanish Pink', 'Bag_of_Marbles': ['Middle Green', 'Rose Quartz', 'Pale Cerulean', 'Indigo', 'Gold', 'Rose Dust', 'Spanish Orange']}
+2024-06-03 21:19:39.928945: {'Large_Marble': 'Russian Violet', 'Bag_of_Marbles': ['Vegas Gold', 'Mint Green', 'Big Dip O’ruby', 'Spanish Orange', 'Chinese Red', 'Pale Plum', 'Blue Bell']}
+2024-06-03 21:19:40.001137: {'Large_Marble': 'Cotton Candy', 'Bag_of_Marbles': ['Auburn', 'Light Orchid', 'Purple', 'Mode Beige', 'Lilac Luster', 'Rose Quartz', 'Shandy']}
+2024-06-03 21:19:40.073313: {'Large_Marble': 'Mint Cream', 'Bag_of_Marbles': ['Lumber', 'Isabelline', 'Honeydew', 'Chinese Red', 'Ivory', 'Antique Brass', 'Zomp']}
+2024-06-03 21:19:40.145827: {'Large_Marble': 'Candy Pink', 'Bag_of_Marbles': ['Platinum', 'Slate Blue', 'Neon Pink', 'Mulberry', 'Terra Cotta', 'Middle Red Purple', 'Terra Cotta']}
+2024-06-03 21:19:40.218594: {'Large_Marble': 'Cotton Candy', 'Bag_of_Marbles': ['Almond', 'Maximum Blue', 'Lumber', 'Lavender Blue', 'Mint Cream', 'Lavender Blue', 'Orange Peel']}
+2024-06-03 21:19:40.291149: {'Large_Marble': 'Orange Peel', 'Bag_of_Marbles': ['Royal Blue', 'Lavender Blue', 'Terra Cotta', 'Ivory', 'Chinese Red', 'Middle Green', 'Almond']}
+2024-06-03 21:19:40.364048: {'Large_Marble': 'Mango Tango', 'Bag_of_Marbles': ['Rose Quartz', 'Lavender Blue', 'Big Dip O’ruby', 'Purple', 'Mint Cream', 'Sheen Green', 'Tuscan Brown']}
+2024-06-03 21:19:40.437561: {'Large_Marble': 'Brink Pink', 'Bag_of_Marbles': ['Purple', 'Lilac Luster', 'Middle Green', 'Blue-Green', 'Antique Bronze', 'Royal Red', 'Russian Violet']}
+2024-06-03 21:19:40.509630: {'Large_Marble': 'Tuscan Brown', 'Bag_of_Marbles': ['Eerie Black', 'Lemon Lime', 'Fiery Rose', 'Silver Chalice', 'Mint Cream', 'Royal Blue', 'Neon Dark Green']}
+2024-06-03 21:19:40.582212: {'Large_Marble': 'Venetian Red', 'Bag_of_Marbles': ['La Salle Green', 'Outrageous Orange', 'Lavender Blue', 'Big Dip O’ruby', 'Spanish Orange', 'Emerald', 'Tuscan Brown']}
+2024-06-03 21:19:40.654582: {'Large_Marble': 'Middle Red Purple', 'Bag_of_Marbles': ['Neon Silver', 'Royal Blue', 'Golden Yellow', 'Sheen Green', 'Pale Taupe', 'Pale Taupe', 'Liver Chestnut']}
+2024-06-03 21:19:40.727609: {'Large_Marble': 'Sage', 'Bag_of_Marbles': ['Silver Chalice', 'Brown', 'Mimi Pink', 'Gold', 'Black Coral', 'Middle Green Yellow', 'Mode Beige']}
+2024-06-03 21:19:40.800724: {'Large_Marble': 'Platinum', 'Bag_of_Marbles': ['Brown', 'Spanish Orange', 'Honeydew', 'Stop Red', 'Middle Red Purple', 'Mint Green', 'Icterine']}
+2024-06-03 21:19:40.874182: {'Large_Marble': 'Golden Yellow', 'Bag_of_Marbles': ['Granny Smith Apple', 'Blue-Green', 'Middle Green', 'Spanish Pink', 'Rose Dust', 'Blue Bell', 'Maximum Purple']}
+2024-06-03 21:19:40.946797: {'Large_Marble': 'Zomp', 'Bag_of_Marbles': ['Maximum Purple', 'Dark Fuchsia', 'Bistre Brown', 'Mint Cream', 'Dark Moss Green', 'Silver Chalice', 'Lilac Luster']}
+2024-06-03 21:19:41.019068: {'Large_Marble': 'Green', 'Bag_of_Marbles': ['Rose Quartz', 'Neon Silver', 'Royal Blue', 'Light Orange', 'Neon Pink', 'Mulberry', 'Spanish Orange']}
+2024-06-03 21:19:41.091456: {'Large_Marble': 'Cotton Candy', 'Bag_of_Marbles': ['Pale Cerulean', 'Mulberry', 'Dark Moss Green', 'Black Coral', 'Neon Silver', 'Venetian Red', 'Royal Red']}
+2024-06-03 21:19:41.164212: {'Large_Marble': 'Lilac Luster', 'Bag_of_Marbles': ['Honeydew', 'Pastel Blue', 'Outrageous Orange', 'Spanish Carmine', 'Pale Cerulean', 'Chinese Red', 'Vegas Gold']}
+2024-06-03 21:19:41.236426: {'Large_Marble': 'Rose Dust', 'Bag_of_Marbles': ['Mode Beige', 'Lilac Luster', 'Liver Chestnut', 'Rose Dust', 'Icterine', 'Tuscan Brown', 'Tuscan Brown']}
+2024-06-03 21:19:41.308080: {'Large_Marble': 'Lilac Luster', 'Bag_of_Marbles': ['Rose Dust', 'Fiery Rose', 'La Salle Green', 'Platinum', 'Isabelline', 'Gold', 'Silver Pink']}
+2024-06-03 21:19:41.380944: {'Large_Marble': 'Purple', 'Bag_of_Marbles': ['Blue', 'Lumber', 'Brink Pink', 'Orange Peel', 'Beaver', 'Light Orchid', 'Honeydew']}
+2024-06-03 21:19:41.452919: {'Large_Marble': 'Spanish Pink', 'Bag_of_Marbles': ['Venetian Red', 'Cotton Candy', 'Safety Yellow', 'Purple Plum', 'Neon Silver', 'Neon Pink', 'Pale Taupe']}
+2024-06-03 21:19:41.524790: {'Large_Marble': 'Zomp', 'Bag_of_Marbles': ['Blue-Green', 'Pastel Blue', 'Dark Fuchsia', 'Stop Red', 'Eerie Black', 'Lavender Purple', 'Royal Orange']}
+2024-06-03 21:19:41.597819: {'Large_Marble': 'Orange Peel', 'Bag_of_Marbles': ['White Smoke', 'Liver Chestnut', 'Light Orchid', 'Lavender Blue', 'Maximum Purple', 'Silver Pink', 'Pale Taupe']}
+2024-06-03 21:19:41.670027: {'Large_Marble': 'Gold', 'Bag_of_Marbles': ['Platinum', 'Middle Green', 'Isabelline', 'Maximum Blue', 'Spanish Orange', 'Cotton Candy', 'Slate Blue']}
+2024-06-03 21:19:41.742632: {'Large_Marble': 'Candy Pink', 'Bag_of_Marbles': ['Neon Pink', 'Tuscan Brown', 'Bistre Brown', 'Dark Moss Green', 'White Smoke', 'Sheen Green', 'Shandy']}
+2024-06-03 21:19:41.814946: {'Large_Marble': 'Granny Smith Apple', 'Bag_of_Marbles': ['Outrageous Orange', 'Pale Goldenrod', 'Dark Fuchsia', 'Maximum Purple', 'Mango Tango', 'Gold', 'Fiery Rose']}
+2024-06-03 21:19:41.887805: {'Large_Marble': 'Mimi Pink', 'Bag_of_Marbles': ['Ivory', 'Royal Red', 'Sheen Green', 'Emerald', 'Golden Yellow', 'Honeydew', 'Neon Pink']}
+2024-06-03 21:19:41.960683: {'Large_Marble': 'Cotton Candy', 'Bag_of_Marbles': ['Indigo', 'La Salle Green', 'Arylide Yellow', 'Rose Quartz', 'Tuscan Brown', 'Orange Soda', 'Lavender Blue']}
+2024-06-03 21:19:42.033142: {'Large_Marble': 'Maximum Blue', 'Bag_of_Marbles': ['Purple Plum', 'Blue', 'La Salle Green', 'Arylide Yellow', 'Royal Orange', 'Royal Red', 'Vegas Gold']}
+2024-06-03 21:19:42.105640: {'Large_Marble': 'Antique Brass', 'Bag_of_Marbles': ['Tuscan Brown', 'Middle Green Yellow', 'Platinum', 'Lumber', 'Bistre Brown', 'Duke Blue', 'Vegas Gold']}
+2024-06-03 21:19:42.177757: {'Large_Marble': 'Venetian Red', 'Bag_of_Marbles': ['Honeydew', 'Gold', 'Outrageous Orange', 'Dark Moss Green', 'Light Orchid', 'Sage', 'Cobalt Blue']}
+2024-06-03 21:19:42.249563: {'Large_Marble': 'Safety Yellow', 'Bag_of_Marbles': ['Pastel Blue', 'Green', 'Mode Beige', 'Rose Dust', 'Middle Red Purple', 'Isabelline', 'Royal Red']}
