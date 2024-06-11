@@ -12,6 +12,15 @@ TODO
 Add your comments here on the pool sizes that you used for your assignment and
 why they were the best choices.
 
+--------------------------------------------------------------
+I decided to limit my program to up to 15 processes (my processor has 16)
+
+I originally went with giving 3 processes to each pool because I believe in equality
+
+after finishing the functionality of the program I took away one process from each to
+    see if it would make the run time significantly slower for that one to lose a process
+
+none did so I returned it to the original 3 processes for each
 
 """
 
@@ -64,9 +73,9 @@ def task_prime(value):
     """
     value = value["value"]
     if is_prime(value):
-        return f"{value} is prime"
+        return f"{value:,} is prime"
     else:
-        return f"{value} is not prime"
+        return f"{value:,} is not prime"
 
     
 
@@ -79,7 +88,12 @@ def task_word(word):
         {word} not found *****
     """
     word = word["word"]
-    
+    with open("words.txt") as words:
+        words_list = words.read().split("\n")
+        if word in words_list:
+            return f"{word} found"
+        else:
+            return f"{word} not found"
 
 
 def task_upper(text):
@@ -87,14 +101,21 @@ def task_upper(text):
     Add the following to the global list:
         {text} ==>  uppercase version of {text}
     """
-    pass
+    text = text["text"]
+    return f"{text} ==> {text.upper()}"
 
-def task_sum(start_value, end_value):
+
+def task_sum(value):
     """
     Add the following to the global list:
         sum of {start_value:,} to {end_value:,} = {total:,}
     """
-    pass
+    start_value = value["start"]
+    end_value = value["end"]
+    total = 0
+    for i in range(start_value, end_value):
+        total += i
+    return f"sum of {start_value:,} to {end_value:,} = {total:,}"
 
 def task_name(url):
     """
@@ -104,7 +125,14 @@ def task_name(url):
             - or -
         {url} had an error receiving the information
     """
-    pass
+    url = url["url"]
+    response = requests.get(url)
+    if response.status_code == 200:
+        response = response.json()
+        return f"{url} has name {response['name']}"
+    else:
+        return f"{url} had an error receiving the information"
+
 
 
 def main():
@@ -118,7 +146,7 @@ def main():
 
     prime_tasks = []
     word_tasks = []
-    upper_tasks = {}
+    upper_tasks = []
     sum_tasks = []
     name_tasks = []
     
@@ -151,27 +179,27 @@ def main():
     sum_pool = mp.Pool(3)
     name_pool = mp.Pool(3)
 
-    result_primes = [prime_pool.apply_async(task_prime, args=(x,)) for x in prime_tasks]
-    result_words = [word_pool.apply_async(task_prime, args=(x,)) for x in word_tasks]
-    result_upper = [upper_pool.apply_async(task_prime, args=(x,)) for x in upper_tasks]
-    result_sums = [sum_pool.apply_async(task_prime, args=(x,)) for x in sum_tasks]
-    result_names = [name_pool.apply_async(task_prime, args=(x,)) for x in name_tasks]
+    future_primes = [prime_pool.apply_async(task_prime, args=(x,)) for x in prime_tasks]
+    future_words = [word_pool.apply_async(task_word, args=(x,)) for x in word_tasks]
+    future_upper = [upper_pool.apply_async(task_upper, args=(x,)) for x in upper_tasks]
+    future_sums = [sum_pool.apply_async(task_sum, args=(x,)) for x in sum_tasks]
+    future_names = [name_pool.apply_async(task_name, args=(x,)) for x in name_tasks]
 
     prime_pool.close()
     prime_pool.join()
-    result_primes = [x.get() for x in result_primes].sort()
+    result_primes = [x.get() for x in future_primes]
     word_pool.close()
     word_pool.join()
-    result_words = [x.get() for x in result_words].sort()
+    result_words = [x.get() for x in future_words]
     upper_pool.close()
     upper_pool.join()
-    result_upper = [x.get() for x in result_upper].sort()
+    result_upper = [x.get() for x in future_upper]
     sum_pool.close()
     sum_pool.join()
-    result_sums = [x.get() for x in result_sums].sort()
+    result_sums = [x.get() for x in future_sums]
     name_pool.close()
     name_pool.join()
-    result_names = [x.get() for x in result_names].sort()
+    result_names = [x.get() for x in future_names]
 
 
 
