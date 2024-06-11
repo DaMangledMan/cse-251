@@ -62,7 +62,13 @@ def task_prime(value):
             - or -
         {value} is not prime
     """
-    pass
+    value = value["value"]
+    if is_prime(value):
+        return f"{value} is prime"
+    else:
+        return f"{value} is not prime"
+
+    
 
 def task_word(word):
     """
@@ -72,7 +78,9 @@ def task_word(word):
             - or -
         {word} not found *****
     """
-    pass
+    word = word["word"]
+    
+
 
 def task_upper(text):
     """
@@ -107,6 +115,12 @@ def main():
 
     # TODO you can change the following
     # TODO start and wait pools
+
+    prime_tasks = []
+    word_tasks = []
+    upper_tasks = {}
+    sum_tasks = []
+    name_tasks = []
     
     count = 0
     task_files = glob.glob("*.task")
@@ -114,21 +128,50 @@ def main():
         # print()
         # print(filename)
         task = load_json_file(filename)
-        print(task)
+        # print(task)
         count += 1
         task_type = task['task']
         if task_type == TYPE_PRIME:
-            task_prime(task['value'])
+            prime_tasks.append(task)
         elif task_type == TYPE_WORD:
-            task_word(task['word'])
+            word_tasks.append(task)
         elif task_type == TYPE_UPPER:
-            task_upper(task['text'])
+            upper_tasks.append(task)
         elif task_type == TYPE_SUM:
-            task_sum(task['start'], task['end'])
+            sum_tasks.append(task)
         elif task_type == TYPE_NAME:
-            task_name(task['url'])
+            name_tasks.append(task)
         else:
             log.write(f'Error: unknown task type {task_type}')
+
+
+    prime_pool = mp.Pool(3)
+    word_pool = mp.Pool(3)
+    upper_pool = mp.Pool(3)
+    sum_pool = mp.Pool(3)
+    name_pool = mp.Pool(3)
+
+    result_primes = [prime_pool.apply_async(task_prime, args=(x,)) for x in prime_tasks]
+    result_words = [word_pool.apply_async(task_prime, args=(x,)) for x in word_tasks]
+    result_upper = [upper_pool.apply_async(task_prime, args=(x,)) for x in upper_tasks]
+    result_sums = [sum_pool.apply_async(task_prime, args=(x,)) for x in sum_tasks]
+    result_names = [name_pool.apply_async(task_prime, args=(x,)) for x in name_tasks]
+
+    prime_pool.close()
+    prime_pool.join()
+    result_primes = [x.get() for x in result_primes].sort()
+    word_pool.close()
+    word_pool.join()
+    result_words = [x.get() for x in result_words].sort()
+    upper_pool.close()
+    upper_pool.join()
+    result_upper = [x.get() for x in result_upper].sort()
+    sum_pool.close()
+    sum_pool.join()
+    result_sums = [x.get() for x in result_sums].sort()
+    name_pool.close()
+    name_pool.join()
+    result_names = [x.get() for x in result_names].sort()
 
 
 
